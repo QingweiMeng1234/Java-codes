@@ -17,5 +17,6 @@ public class Calculator {
         System.out.println("second is:");
         j = scanner.nextInt();
         System.out.println("the sum is:" + (i + j));
+        System.out.println("program finished");
     }
 }
