@@ -40,17 +40,21 @@ public class ForLoop {
 //            a = a + j;
 //        }
 //        System.out.println("sum=" + a);
+//        Scanner scanner = new Scanner(System.in);
+//
+//        int cnt = scanner.nextInt();
+//        int min = 1000, a;
+//        for (int i = 0; i < cnt; i++) {
+//            a = scanner.nextInt();
+//            if (a <min) {
+//                min = a;
+//            }
+//        }
+//        System.out.println("the min value is: "+min);
+//    }
+
         Scanner scanner = new Scanner(System.in);
-
         int cnt = scanner.nextInt();
-        int min = 1000, a;
-        for (int i = 0; i < cnt; i++) {
-            a = scanner.nextInt();
-            if (a <min) {
-                min = a;
-            }
-        }
-        System.out.println("the min value is: "+min);
+        int max = 1000, a;
     }
-
 }
