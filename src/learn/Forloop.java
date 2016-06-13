@@ -12,12 +12,12 @@ public class ForLoop {
 //        int i = 0;
 //        while(i < a.length) {
 //            a[i] = i;
-//            System.out.println("i = " + i);
+//            System.out.p("i = " + i);
 //            i++;
 //        }
 //        i = 0;
 //        while(i < a.length) {
-//            System.out.println("a[" + i + "] = " + a[i]);
+//            System.out.p("a[" + i + "] = " + a[i]);
 //            i++;
 //        }
 //        int j = 0;
@@ -39,7 +39,7 @@ public class ForLoop {
 //        for (int j = 0; j < x; j++) {
 //            a = a + j;
 //        }
-//        System.out.println("sum=" + a);
+//        System.out.p("sum=" + a);
 //        Scanner scanner = new Scanner(System.in);
 //
 //        int cnt = scanner.nextInt();
@@ -50,7 +50,7 @@ public class ForLoop {
 //                min = a;
 //            }
 //        }
-//        System.out.println("the min value is: "+min);
+//        System.out.p("the min value is: "+min);
 //    }
 
         Scanner scanner = new Scanner(System.in);

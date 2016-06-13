@@ -38,7 +38,7 @@ public class Prime {
         in.close();
     }
 
-    public static void printDivider() {
+    private static void printDivider() {
         System.out.println("|\n----------------------------------------------------" +
                 "------------------------------------------------------------------------------------");
     }
