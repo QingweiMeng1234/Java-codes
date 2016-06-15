@@ -12,10 +12,13 @@ public class Main {
         int R = scanner.nextInt();
         System.out.println("n=");
         int n = scanner.nextInt();
-            final int i = R ^ n;
+        int r = R;
+        for (int i = 1; i < n; i++) {
+            R = R * r;
+        }
 
-        System.out.println("S= " + i);
+        System.out.println("S= " + R);
     }
 
-    }
+}
 
